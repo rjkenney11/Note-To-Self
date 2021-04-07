@@ -1,34 +1,43 @@
 html, body {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Marck Script', cursive;
     height: 100%;
     margin: 0;
     padding: 0;
   }
+
+  .navbar{
+    background-color: rgb(53, 30, 30);
+    font-size: 2rem;
+  }
   
   .navbar-brand{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Marck Script', cursive;
+    font-size: 2rem;
+    color: #a7d1c2;
   }
   
   .main-jumbotron{
-    margin-left: 22%;
+    margin-left: 25%;
     margin-top: 70px;
-    height: 500px;
+    height: 400px;
     width: 700px;
-    background-image: url("https://user-images.githubusercontent.com/74163812/112858600-063ff300-9080-11eb-8607-c2c0071ecde8.png");
+    background-image: url("https://user-images.githubusercontent.com/74163812/113804074-cf2aab00-972b-11eb-972a-549362e15423.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border:6px;
-    border-color: #2c3e50;
-    border-style:dashed; 
+    border:4px;
+    border-color: rgb(53, 30, 30);
+    border-style:solid; 
   }
   
   .btn{
       margin-left: 37%;
       position: fixed;
-      font-family: 'Indie Flower', cursive;
+      font-family: 'Marck Script', cursive;
+      background-color: rgb(53, 30, 30);
   }
   
   .save-note {
+    font-size: 2rem;
     display: none;
   }
   
@@ -40,34 +49,37 @@ html, body {
   }
   
   .note-textarea, .note-title {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Marck Script', cursive;
     color: #000000;
     width: 100%;
     outline: none;
     border: none;
+    font-size: 2rem;
   }
   
   .note-textarea {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Marck Script', cursive;
     resize: none;
     height: calc(100% - 63px);
     padding-top: 15px;
+    font-size: 1.8rem;
   }
   
   .note-title {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Marck Script', cursive;
     height: 50px;
     margin-top: 13px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   
   .note-title:read-only, .note-textarea:read-only {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Marck Script', cursive;
     color: #757575;
   }
   
   .list-container .card {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5rem;
     height: calc(100vh - 70px);
     border-bottom: none;
     border-bottom-right-radius: 0;
@@ -87,7 +99,7 @@ html, body {
   } */
   
   .list-container i {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
   
