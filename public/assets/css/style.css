@@ -1,4 +1,5 @@
 html, body {
+  font-family: 'Indie Flower', cursive;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -39,6 +40,7 @@ html, body {
   }
   
   .note-textarea, .note-title {
+    font-family: 'Indie Flower', cursive;
     color: #000000;
     width: 100%;
     outline: none;
@@ -46,22 +48,26 @@ html, body {
   }
   
   .note-textarea {
+    font-family: 'Indie Flower', cursive;
     resize: none;
     height: calc(100% - 63px);
     padding-top: 15px;
   }
   
   .note-title {
+    font-family: 'Indie Flower', cursive;
     height: 50px;
     margin-top: 13px;
     font-size: 3rem;
   }
   
   .note-title:read-only, .note-textarea:read-only {
+    font-family: 'Indie Flower', cursive;
     color: #757575;
   }
   
   .list-container .card {
+    font-family: 'Indie Flower', cursive;
     height: calc(100vh - 70px);
     border-bottom: none;
     border-bottom-right-radius: 0;
@@ -72,13 +78,13 @@ html, body {
     padding-left: 0;
   }
   
-  .list-container .list-group,
+  /* .list-container .list-group,
   .list-container .list-group-item:first-child,
   .list-container .card {
     border-top: none;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-  }
+  } */
   
   .list-container i {
     font-size: 1.1rem;
