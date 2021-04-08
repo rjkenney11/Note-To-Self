@@ -65,9 +65,9 @@ module.exports = function(app){
   });
   //make a delete request
 
-  app.delete("/api/notes:id", function(req,res){
+  app.delete("/api/notes/:id", function(req,res){
     let id = req.params.id;
-    let byeData = JSON.parse(fs.readFileSync(fileName));
+    const byeData = JSON.parse(fs.readFileSync(fileName));
 
     const newData = byeData.filter((note) => note.id !== id);
     fs.writeFileSync(fileName, JSON.stringify(newData));
