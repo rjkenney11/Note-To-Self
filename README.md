@@ -25,7 +25,7 @@ Take and store notes quickly.
 ![Image](https://user-images.githubusercontent.com/74163812/113964511-a375f680-97f9-11eb-9049-37279e2d7a61.png)
 <br />
 <br />
-Repository Link: https://immense-dusk-61833.herokuapp.com/ <br /><br />
+Deployed Link: https://immense-dusk-61833.herokuapp.com/ <br /><br />
 
 ### Contributing:
 Rachel Kenney<br />
